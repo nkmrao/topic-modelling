@@ -19,6 +19,8 @@ The core of the project is the TopicAnalyzer, a high-level class that orchestrat
 
 ### Example Usage
 ```python
+analyzer = TopicAnalyzer()
+
 analysis_results = analyzer.analyze_messages(
     messages=sample_messages,
     keyphrase_method='keybert',
